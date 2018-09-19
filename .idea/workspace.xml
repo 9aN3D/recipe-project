@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdfc98aa-4884-495f-b8cc-590c5b3492aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/CategoryRespository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/RecipeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,7 +36,7 @@
         <counts>
           <entry key="gitignore" value="4" />
           <entry key="html" value="1" />
-          <entry key="java" value="8" />
+          <entry key="java" value="11" />
           <entry key="txt" value="2" />
           <entry key="xml" value="3" />
         </counts>
@@ -43,7 +44,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="8" />
+          <entry key="JAVA" value="11" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="XML" value="3" />
         </counts>
@@ -51,16 +52,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="45" />
-          <entry key="java" value="893" />
-          <entry key="txt" value="72" />
+          <entry key="java" value="933" />
+          <entry key="txt" value="80" />
           <entry key="xml" value="191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="45" />
-          <entry key="JAVA" value="893" />
-          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="JAVA" value="933" />
+          <entry key="PLAIN_TEXT" value="80" />
           <entry key="XML" value="191" />
         </counts>
       </usages-collector>
@@ -115,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="432">
               <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -176,7 +177,43 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/RecipeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/CategoryRespository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -208,6 +245,7 @@
         <option value="HTML File" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -228,6 +266,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Categoty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/RecipeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/CategoryRespository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepository.java" />
       </list>
     </option>
   </component>
@@ -313,6 +354,15 @@
               <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,7 +390,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537369232662" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537369589502" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sfg-pet-clinic" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -393,7 +443,7 @@
       <workItem from="1536504203837" duration="774000" />
       <workItem from="1536586458534" duration="641000" />
       <workItem from="1537280619030" duration="598000" />
-      <workItem from="1537364210911" duration="4037000" />
+      <workItem from="1537364210911" duration="4581000" />
     </task>
     <task id="LOCAL-00001" summary="Adding IndexController">
       <created>1536503389489</created>
@@ -430,17 +480,23 @@
       <option name="project" value="LOCAL" />
       <updated>1537368484282</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding Category">
+      <created>1537369295622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537369295622</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11343000" />
+    <option name="totallyTimeSpent" value="11887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1252" height="1053" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20978442" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27943614" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -490,7 +546,8 @@
     <MESSAGE value="Adding Ingredient" />
     <MESSAGE value="Adding UnitOfMeasure" />
     <MESSAGE value="Adding Difficulty" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Difficulty" />
+    <MESSAGE value="Adding Category" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Category" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -612,9 +669,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="432">
           <caret line="36" column="37" lean-forward="true" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -674,24 +753,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/RecipeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        <state relative-caret-position="90">
+          <caret line="5" column="69" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#811#812#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/CategoryRespository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
