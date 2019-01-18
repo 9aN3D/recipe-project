@@ -2,7 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdfc98aa-4884-495f-b8cc-590c5b3492aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/CategoryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/IngredientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/NotesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/RecipeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/UnitOfMeasureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/CategoryCommandToCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/CategoryToCategoryCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/IngredientCommandToIngredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/NotesCommandToNotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/NotesToNotesCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/UnitOfMeasureToUnitOfMeasureCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/RecipeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/CategoryCommandToCategoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/CategoryToCategoryCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientCommandToIngredientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/NotesCommandToNotesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/NotesToNotesCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipe-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/recipe-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,37 +69,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/NotesCommandToNotesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="45" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="45" />
+            <state relative-caret-position="396">
+              <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepositoryIT.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="234">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="59" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="59" />
+            <state relative-caret-position="-288">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceIT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+            <state relative-caret-position="36">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommandTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-702">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientCommandToIngredientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/RecipeCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,9 +171,9 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,16 +189,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Difficulty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Categoty.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/CategoryRespository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/bootstrap/DataLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/RecipeRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/bootstrap/RecipeBootstrap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java" />
@@ -112,14 +203,43 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Notes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Ingredient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/domain/CategoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/IndexControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepositoryIT.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/bootstrap/RecipeController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/RecipeControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/CategoryCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/IngredientCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/UnitOfMeasureCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/NotesCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/RecipeCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/CategoryCommandToCategory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/CategoryToCategoryCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/IngredientCommandToIngredient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasure.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/UnitOfMeasureToUnitOfMeasureCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/NotesCommandToNotes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/NotesToNotesCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipe.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/CategoryCommandToCategoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/CategoryToCategoryCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/NotesToNotesCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/NotesCommandToNotesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommandTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientCommandToIngredientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -148,7 +268,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="27" />
-    <option name="width" value="1022" />
+    <option name="width" value="925" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -199,7 +319,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
@@ -208,7 +328,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="converters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
@@ -218,15 +338,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
@@ -289,7 +400,16 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
-              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+              <item name="converters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +428,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547818567855" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547846053386" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sfg-pet-clinic" />
@@ -318,12 +438,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.example.guru.recipeproject.repositories" />
+      <recent name="com.example.guru.recipeproject.converters" />
       <recent name="com.example.guru.recipeproject.controllers" />
+      <recent name="com.example.guru.recipeproject.repositories" />
       <recent name="com.example.guru.recipeproject.services" />
       <recent name="com.example.guru.recipeproject.domain" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.guru.recipeproject.converters" />
       <recent name="com.example.guru.recipeproject.domain" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -348,8 +470,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UnitOfMeasureRepositoryIT">
-    <configuration name="IndexControllerTest.getIndexPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in recipe-project">
+    <configuration name="All in recipe-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recipe-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecipeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="recipe-project" />
       <extension name="coverage">
         <pattern>
@@ -358,72 +488,52 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.controllers.IndexControllerTest" />
-      <option name="METHOD_NAME" value="getIndexPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexControllerTest.testMockMVC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="recipe-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.guru.recipeproject.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.controllers.IndexControllerTest" />
-      <option name="METHOD_NAME" value="testMockMVC" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecipeServiceImplTest.getRecipes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="recipe-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.guru.recipeproject.services.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.services" />
-      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.services.RecipeServiceImplTest" />
-      <option name="METHOD_NAME" value="getRecipes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnitOfMeasureRepositoryIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="recipe-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.guru.recipeproject.repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.repositories.UnitOfMeasureRepositoryIT" />
+      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.controllers.RecipeControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitOfMeasureRepositoryIT.findByDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecipeProjectApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="recipe-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.guru.recipeproject.repositories.*" />
+          <option name="PATTERN" value="com.example.guru.recipeproject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.repositories" />
-      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.repositories.UnitOfMeasureRepositoryIT" />
-      <option name="METHOD_NAME" value="findByDescription" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.example.guru.recipeproject" />
+      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.RecipeProjectApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnitOfMeasureCommandToUnitOfMeasureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recipe-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.guru.recipeproject.converters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.converters" />
+      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.converters.UnitOfMeasureCommandToUnitOfMeasureTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.guru.recipeproject.converters in recipe-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recipe-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.guru.recipeproject.converters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.converters" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -437,19 +547,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.RecipeProjectApplication" />
-      <item itemvalue="JUnit.RecipeServiceImplTest.getRecipes" />
-      <item itemvalue="JUnit.IndexControllerTest.getIndexPage" />
-      <item itemvalue="JUnit.IndexControllerTest.testMockMVC" />
-      <item itemvalue="JUnit.UnitOfMeasureRepositoryIT.findByDescription" />
-      <item itemvalue="JUnit.UnitOfMeasureRepositoryIT" />
+      <item itemvalue="JUnit.RecipeControllerTest" />
+      <item itemvalue="JUnit.UnitOfMeasureCommandToUnitOfMeasureTest" />
+      <item itemvalue="JUnit.com.example.guru.recipeproject.converters in recipe-project" />
+      <item itemvalue="JUnit.RecipeProjectApplicationTests" />
+      <item itemvalue="JUnit.All in recipe-project" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UnitOfMeasureRepositoryIT" />
-        <item itemvalue="JUnit.UnitOfMeasureRepositoryIT.findByDescription" />
-        <item itemvalue="JUnit.IndexControllerTest.testMockMVC" />
-        <item itemvalue="JUnit.IndexControllerTest.getIndexPage" />
-        <item itemvalue="JUnit.RecipeServiceImplTest.getRecipes" />
+        <item itemvalue="JUnit.All in recipe-project" />
+        <item itemvalue="JUnit.RecipeProjectApplicationTests" />
+        <item itemvalue="JUnit.com.example.guru.recipeproject.converters in recipe-project" />
+        <item itemvalue="JUnit.UnitOfMeasureCommandToUnitOfMeasureTest" />
+        <item itemvalue="JUnit.RecipeControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +584,7 @@
       <workItem from="1537810368814" duration="1737000" />
       <workItem from="1537815636992" duration="784000" />
       <workItem from="1538064214648" duration="7275000" />
-      <workItem from="1547805816207" duration="9232000" />
+      <workItem from="1547805816207" duration="23473000" />
     </task>
     <task id="LOCAL-00001" summary="Adding IndexController">
       <created>1536503389489</created>
@@ -553,31 +663,17 @@
       <option name="project" value="LOCAL" />
       <updated>1547814521281</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added some tests">
+      <created>1547818576960</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547818576960</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RecipeServiceImplTest_getRecipes - 2019.01.18 at 11h 46m 43s.xml">
-      <configuration name="RecipeServiceImplTest.getRecipes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest_getIndexPage - 2019.01.18 at 12h 26m 11s.xml">
-      <configuration name="IndexControllerTest.getIndexPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest_getIndexPage - 2019.01.18 at 12h 32m 00s.xml">
-      <configuration name="IndexControllerTest.getIndexPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest_getIndexPage - 2019.01.18 at 12h 32m 44s.xml">
-      <configuration name="IndexControllerTest.getIndexPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest_getIndexPage - 2019.01.18 at 12h 44m 39s.xml">
-      <configuration name="IndexControllerTest.getIndexPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest_getIndexPage - 2019.01.18 at 12h 48m 17s.xml">
-      <configuration name="IndexControllerTest.getIndexPage" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="IndexControllerTest_testMockMVC - 2019.01.18 at 13h 00m 41s.xml">
-      <configuration name="IndexControllerTest.testMockMVC" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UnitOfMeasureRepositoryIT_findByDescription - 2019.01.18 at 13h 10m 18s.xml">
       <configuration name="UnitOfMeasureRepositoryIT.findByDescription" configurationId="JUnit" />
     </history-entry>
@@ -587,13 +683,33 @@
     <history-entry file="UnitOfMeasureRepositoryIT - 2019.01.18 at 13h 12m 26s.xml">
       <configuration name="UnitOfMeasureRepositoryIT" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UnitOfMeasureRepositoryIT - 2019.01.18 at 17h 50m 06s.xml">
+      <configuration name="UnitOfMeasureRepositoryIT" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeServiceImplTest_getRecipesByIdTest - 2019.01.18 at 18h 14m 28s.xml">
+      <configuration name="RecipeServiceImplTest.getRecipesByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RecipeControllerTest - 2019.01.18 at 18h 31m 53s.xml">
+      <configuration name="RecipeControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UnitOfMeasureCommandToUnitOfMeasureTest - 2019.01.18 at 21h 50m 19s.xml">
+      <configuration name="UnitOfMeasureCommandToUnitOfMeasureTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_example_guru_recipeproject_converters_in_recipe-project - 2019.01.18 at 21h 59m 26s.xml">
+      <configuration name="com.example.guru.recipeproject.converters in recipe-project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_example_guru_recipeproject_converters_in_recipe-project - 2019.01.18 at 22h 00m 49s.xml">
+      <configuration name="com.example.guru.recipeproject.converters in recipe-project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="com_example_guru_recipeproject_converters_in_recipe-project - 2019.01.18 at 22h 03m 14s.xml">
+      <configuration name="com.example.guru.recipeproject.converters in recipe-project" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42673000" />
+    <option name="totallyTimeSpent" value="56914000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1022" height="1053" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="27" width="925" height="1053" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -602,11 +718,11 @@
       <window_info id="Favorites" order="4" side_tool="true" weight="0.3298279" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="7" weight="0.30840164" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.29920363" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30411255" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3051948" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -653,113 +769,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="Added some tests" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/ui/Model.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/banner.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/bootstrap/DataLoader.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/CategoryRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2143">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/RecipeProjectApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/RecipeProjectApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/bootstrap/RecipeBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2787">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
+        <state relative-caret-position="90">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/domain/CategoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/RecipeRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="5" column="72" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Ingredient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="4" column="59" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -770,17 +803,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Difficulty.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="324">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.8.RELEASE/spring-context-5.0.8.RELEASE.jar!/org/springframework/ui/Model.class">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="252">
+          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepositoryIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/domain/CategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="45" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/RecipeProjectApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/bootstrap/RecipeBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/bootstrap/RecipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/IndexControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/RecipeControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="72" column="30" lean-forward="true" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="16" column="31" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/CategoryCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/UnitOfMeasureCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/UnitOfMeasure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/NotesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/IngredientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Difficulty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -794,10 +981,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/IndexControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Ingredient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="27" />
+        <state relative-caret-position="18">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/UnitOfMeasureCommandToUnitOfMeasure.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/CategoryCommandToCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/CategoryCommandToCategoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/CategoryToCategoryCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/CategoryToCategoryCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/IngredientCommandToIngredient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/NotesCommandToNotes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/NotesToNotesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/UnitOfMeasureToUnitOfMeasureCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/NotesToNotesCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/NotesCommandToNotesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommandTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientCommandToIngredientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/RecipeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -806,63 +1176,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Recipe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="313">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/UnitOfMeasure.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="180">
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="234">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="-288">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceIT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepositoryIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        <state relative-caret-position="36">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
