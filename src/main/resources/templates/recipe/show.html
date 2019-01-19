@@ -9,14 +9,14 @@
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-<!--/*@thymesVar id="recipe" type="guru.springframework.domain.Recipe"*/-->
+<!--/*@thymesVar id="recipe" type="com.example.guru.recipeproject.domain.Recipe"*/-->
 <div class="container-fluid" style="margin-top: 20px">
     <div class="row">
-        <div class="col-md-6 offset-md-3">
+        <div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1">
             <div class="card">
 
                 <div class="card-header text-white bg-dark">
-                    <h1 class="card-title" th:text="${recipe.description}">Recipe Description Here!</h1>
+                    <h1 class="card-title text-center" th:text="${recipe.description}">Recipe Description Here!</h1>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -79,7 +79,7 @@
 
 
                 <div class="card-header text-white bg-dark">
-                    <h1 class="card-title">Ingredients</h1>
+                    <h1 class="card-title text-center">Ingredients</h1>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -99,7 +99,7 @@
 
 
                 <div class="card-header text-white bg-dark">
-                    <h1 class="card-title">Directions</h1>
+                    <h1 class="card-title text-center">Directions</h1>
                 </div>
                 <div class="card-body">
                     <div class="row">
@@ -123,7 +123,7 @@
 
 
                 <div class="card-header text-white bg-dark">
-                    <h1 class="card-title">Notes</h1>
+                    <h1 class="card-title text-center">Notes</h1>
                 </div>
                 <div class="card-body">
                     <div class="row">
