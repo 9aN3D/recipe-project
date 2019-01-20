@@ -48,8 +48,8 @@ public class RecipeServiceImpl implements RecipeService {
         return recipeOptional.get();
     }
 
-    @Override
     @Transactional
+    @Override
     public RecipeCommand findCommandById(Long l) {
         return recipeToRecipeCommand.convert(findById(l));
     }

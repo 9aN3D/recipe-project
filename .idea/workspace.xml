@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdfc98aa-4884-495f-b8cc-590c5b3492aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IngredientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/IngredientControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/RecipeControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/RecipeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,40 +42,101 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IngredientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="432">
+              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/IngredientControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+            <state relative-caret-position="648">
+              <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/IngredientCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="71" />
+            <state relative-caret-position="180">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IndexController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-198">
+              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <element signature="e#2333#2334#0" expanded="true" />
+                <element signature="e#2388#2389#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/show.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="464">
+              <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -90,8 +149,8 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit4 Test Class" />
         <option value="HTML File" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -108,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/bootstrap/RecipeBootstrap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/domain/CategoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/IndexControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/repositories/UnitOfMeasureRepositoryIT.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -128,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/NotesCommandToNotes.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/NotesToNotesCommand.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipe.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureToUnitOfMeasureCommandTest.java" />
@@ -152,13 +207,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/domain/Category.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/RecipeControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/recipe/show.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IngredientController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/IngredientControllerTest.java" />
       </list>
     </option>
   </component>
@@ -181,14 +240,25 @@
           <item name="recipe-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recipe-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="recipe-project" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-thymeleaf:2.0.4.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="y" value="25" />
-    <option name="width" value="1065" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="27" />
+    <option name="width" value="1409" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -238,7 +308,43 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
+              <item name="converters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
@@ -268,6 +374,16 @@
               <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="ingredient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -294,15 +410,6 @@
               <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="recipe-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="recipe-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="recipeproject" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -320,7 +427,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548008704316" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548016634898" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sfg-pet-clinic" />
@@ -330,24 +437,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.guru.recipeproject.controllers" />
       <recent name="com.example.guru.recipeproject.domain" />
       <recent name="com.example.guru.recipeproject.converters" />
-      <recent name="com.example.guru.recipeproject.controllers" />
       <recent name="com.example.guru.recipeproject.repositories" />
       <recent name="com.example.guru.recipeproject.services" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.guru.recipeproject.converters" />
+      <recent name="com.example.guru.recipeproject.domain" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources/templates" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.guru.recipeproject.converters" />
-      <recent name="com.example.guru.recipeproject.domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -362,8 +469,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RecipeProjectApplication">
-    <configuration name="RecipeControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IngredientControllerTest.testGetListIngredients">
+    <configuration name="All in recipe-project" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="recipe-project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IngredientControllerTest.testGetListIngredients" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="recipe-project" />
       <extension name="coverage">
         <pattern>
@@ -372,8 +487,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.controllers.RecipeControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.controllers.IngredientControllerTest" />
+      <option name="METHOD_NAME" value="testGetListIngredients" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -389,22 +505,6 @@
       <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.controllers" />
       <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.controllers.RecipeControllerTest" />
       <option name="METHOD_NAME" value="testDeleteAction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecipeControllerTest.testPostNewRecipeForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="recipe-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.guru.recipeproject.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.guru.recipeproject.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.example.guru.recipeproject.controllers.RecipeControllerTest" />
-      <option name="METHOD_NAME" value="testPostNewRecipeForm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -450,20 +550,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RecipeControllerTest" />
       <item itemvalue="Spring Boot.RecipeProjectApplication" />
-      <item itemvalue="JUnit.RecipeControllerTest.testPostNewRecipeForm" />
       <item itemvalue="JUnit.RecipeServiceImplTest.getRecipeCoomandByIdTest" />
       <item itemvalue="JUnit.RecipeServiceImplTest.testDeleteById" />
       <item itemvalue="JUnit.RecipeControllerTest.testDeleteAction" />
+      <item itemvalue="JUnit.IngredientControllerTest.testGetListIngredients" />
+      <item itemvalue="JUnit.All in recipe-project" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IngredientControllerTest.testGetListIngredients" />
+        <item itemvalue="JUnit.All in recipe-project" />
         <item itemvalue="JUnit.RecipeControllerTest.testDeleteAction" />
         <item itemvalue="JUnit.RecipeServiceImplTest.testDeleteById" />
         <item itemvalue="JUnit.RecipeServiceImplTest.getRecipeCoomandByIdTest" />
-        <item itemvalue="JUnit.RecipeControllerTest" />
-        <item itemvalue="JUnit.RecipeControllerTest.testPostNewRecipeForm" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +591,7 @@
       <workItem from="1547805816207" duration="25920000" />
       <workItem from="1547906894033" duration="629000" />
       <workItem from="1547907996786" duration="16382000" />
-      <workItem from="1548003267617" duration="5428000" />
+      <workItem from="1548003267617" duration="13611000" />
     </task>
     <task id="LOCAL-00001" summary="Adding IndexController">
       <created>1536503389489</created>
@@ -591,25 +691,17 @@
       <option name="project" value="LOCAL" />
       <updated>1547914020102</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add delete recipe operation.">
+      <created>1548008798007</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1548008798007</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="com_example_guru_recipeproject_domain_in_recipe-project - 2019.01.19 at 17h 05m 19s.xml">
-      <configuration name="com.example.guru.recipeproject.domain in recipe-project" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeControllerTest - 2019.01.19 at 19h 41m 13s.xml">
-      <configuration name="RecipeControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeControllerTest - 2019.01.19 at 19h 45m 11s.xml">
-      <configuration name="RecipeControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeControllerTest_testGetUpdateView - 2019.01.20 at 17h 59m 27s.xml">
-      <configuration name="RecipeControllerTest.testGetUpdateView" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RecipeControllerTest_testPostNewRecipeForm - 2019.01.20 at 18h 00m 29s.xml">
-      <configuration name="RecipeControllerTest.testPostNewRecipeForm" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RecipeControllerTest - 2019.01.20 at 18h 01m 21s.xml">
       <configuration name="RecipeControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -625,9 +717,24 @@
     <history-entry file="RecipeControllerTest_testDeleteAction - 2019.01.20 at 18h 20m 43s.xml">
       <configuration name="RecipeControllerTest.testDeleteAction" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IngredientControllerTest_testGetListIngredients - 2019.01.20 at 20h 07m 44s.xml">
+      <configuration name="IngredientControllerTest.testGetListIngredients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_recipe-project - 2019.01.20 at 21h 13m 01s.xml">
+      <configuration name="All in recipe-project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_recipe-project - 2019.01.20 at 21h 15m 07s.xml">
+      <configuration name="All in recipe-project" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngredientControllerTest_testGetListIngredients - 2019.01.20 at 21h 16m 26s.xml">
+      <configuration name="IngredientControllerTest.testGetListIngredients" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IngredientControllerTest_testGetListIngredients - 2019.01.20 at 21h 17m 02s.xml">
+      <configuration name="IngredientControllerTest.testGetListIngredients" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81800000" />
+    <option name="totallyTimeSpent" value="89983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +746,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1065" height="1055" extended-state="4" />
+    <frame x="0" y="27" width="1409" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -649,18 +756,18 @@
       <window_info id="Favorites" order="4" side_tool="true" weight="0.3298279" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="7" weight="0.31637844" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.30741012" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32073435" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20086393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25865802" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44372293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900432" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32900432" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.21536796" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5004669" side_tool="true" weight="0.3034557" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32900432" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -677,7 +784,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="TCPMON" order="10" weight="0.32925835" />
-      <window_info anchor="right" id="Maven" order="11" weight="0.32765958" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.52897656" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -699,97 +806,15 @@
     <MESSAGE value="Added some tests" />
     <MESSAGE value="Adding command objects, type conveters, tests, and service method." />
     <MESSAGE value="Adding domain tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding domain tests." />
+    <MESSAGE value="Add delete recipe operation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add delete recipe operation." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/UnitOfMeasureToUnitOfMeasureCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/NotesToNotesCommandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/RecipeProjectApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/RecipeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/CategoryCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/IngredientToIngredientCommandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/UnitOfMeasureCommandToUnitOfMeasureTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -865,13 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/domain/CategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -890,23 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/IngredientCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,18 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="115" column="111" selection-start-line="115" selection-start-column="101" selection-end-line="115" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.9.RELEASE/thymeleaf-3.0.9.RELEASE.jar!/org/thymeleaf/templateparser/markup/AbstractMarkupTemplateParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1045,31 +1034,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/RecipeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-445">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1084,13 +1048,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/RecipeControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1098,34 +1055,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="71" />
+        <state relative-caret-position="183">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/recipeform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="1926">
+          <caret line="107" column="74" selection-start-line="107" selection-start-column="74" selection-end-line="107" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.9.RELEASE/thymeleaf-3.0.9.RELEASE.jar!/org/thymeleaf/templateparser/markup/AbstractMarkupTemplateParser.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="1548">
+          <caret line="86" column="121" selection-start-line="86" selection-start-column="121" selection-end-line="86" selection-end-column="121" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/repositories/RecipeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/recipe/ingredient/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/RecipeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="19" lean-forward="true" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/services/RecipeServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="68" column="50" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.8.RELEASE/spring-test-5.0.8.RELEASE.jar!/org/springframework/test/util/AssertionErrors.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/converters/RecipeCommandToRecipeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/CategoryCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/guru/recipeproject/controllers/IngredientControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/commands/IngredientCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/converters/RecipeToRecipeCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/services/RecipeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#2388#2389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/IngredientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/guru/recipeproject/controllers/RecipeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="55" column="15" lean-forward="true" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
         </state>
       </provider>
     </entry>
